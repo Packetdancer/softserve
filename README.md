@@ -3,7 +3,7 @@
 # softserve
 
 ```go
-import "gatundemo/softserve"
+import "github.com/packetdancer/softserve/v1"
 ```
 
 Package softserve implements a very basic concurrent webserver in Go, suitable for creating simple webservices. While the bulk of the functionality is provided by the golang net/http package, softserve basically provides all the framework glue to load a configuration file, set up http or https instances, handle serving directories as\-desired, and so on.
